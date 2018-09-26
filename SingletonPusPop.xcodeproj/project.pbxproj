@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		875E40C7212AB9B700624711 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40C6212AB9B700624711 /* AppDelegate.swift */; };
-		875E40C9212AB9B700624711 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40C8212AB9B700624711 /* ViewController.swift */; };
+		875E40C9212AB9B700624711 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40C8212AB9B700624711 /* DetailViewController.swift */; };
 		875E40CC212AB9B700624711 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875E40CA212AB9B700624711 /* Main.storyboard */; };
 		875E40CE212AB9B700624711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875E40CD212AB9B700624711 /* Assets.xcassets */; };
 		875E40D1212AB9B700624711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875E40CF212AB9B700624711 /* LaunchScreen.storyboard */; };
+		875E40D9212AB9CE00624711 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40D8212AB9CE00624711 /* TableViewController.swift */; };
+		875E40DB212AB9EE00624711 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875E40DA212AB9EE00624711 /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		875E40C3212AB9B700624711 /* SingletonPusPop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingletonPusPop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875E40C6212AB9B700624711 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		875E40C8212AB9B700624711 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		875E40C8212AB9B700624711 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		875E40CB212AB9B700624711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875E40CD212AB9B700624711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875E40D0212AB9B700624711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875E40D2212AB9B700624711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875E40D8212AB9CE00624711 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		875E40DA212AB9EE00624711 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				875E40C6212AB9B700624711 /* AppDelegate.swift */,
-				875E40C8212AB9B700624711 /* ViewController.swift */,
+				875E40C8212AB9B700624711 /* DetailViewController.swift */,
+				875E40D8212AB9CE00624711 /* TableViewController.swift */,
+				875E40DA212AB9EE00624711 /* Singleton.swift */,
 				875E40CA212AB9B700624711 /* Main.storyboard */,
 				875E40CD212AB9B700624711 /* Assets.xcassets */,
 				875E40CF212AB9B700624711 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875E40C9212AB9B700624711 /* ViewController.swift in Sources */,
+				875E40C9212AB9B700624711 /* DetailViewController.swift in Sources */,
+				875E40DB212AB9EE00624711 /* Singleton.swift in Sources */,
+				875E40D9212AB9CE00624711 /* TableViewController.swift in Sources */,
 				875E40C7212AB9B700624711 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
